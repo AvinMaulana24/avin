@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avin</title>
+</head>
+<body>
+    <input type="number" id="1"><br>
+    <label for="">+</label><br>
+    <input type="number" id="2"><br>
+    <br>
+    <button id="btn">=</button>
+    <br><br>
+    <span id="hasil"></span>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).on("click","#btn", function(){
+        var hasil = "Halo Dek!";
+        $('#hasil').text(hasil);
+    });
+</script>
+</html>
